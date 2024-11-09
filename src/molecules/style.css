@@ -1,0 +1,48 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    height: 112px;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid #E4E9F2;
+}
+
+.CopyImg {
+    display: flex;
+    gap: 31px;
+    padding-top: 32px;
+}
+
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+    width: 445px;
+    height: 426px;
+    padding-left: 112px;
+}
+
+.Company {
+    color: #FF7E1B;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Title {
+    color: #1D2026;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Text {
+    color: #69707D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
