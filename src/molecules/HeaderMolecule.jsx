@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderAtom from '../atoms/headerAtom'
+import HeaderAtom from '../atoms/HeaderAtom'
 import HeaderIconPart from '../atoms/HeaderIconPart'
 import './style.css'
 
