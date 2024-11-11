@@ -5,11 +5,11 @@ import './style.css'
 
 
 
-function HeaderMolecule() {
+function HeaderMolecule({count}) {
     return (
         <div className='Header'>
             <HeaderAtom navbar1='Collections' navbar2='Men' navbar3='Women' navbar4='About' navbar5='Contact' />
-            <HeaderIconPart />
+            <HeaderIconPart count={count}/>
         </div>
     )
 }

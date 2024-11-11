@@ -1,10 +1,10 @@
 import React from 'react'
 import HeaderMolecule from '../molecules/HeaderMolecule'
 
-function HeaderOrganism() {
+function HeaderOrganism({count}) {
     return (
         <div>
-            <HeaderMolecule />
+            <HeaderMolecule count={count}/>
         </div>
     )
 }

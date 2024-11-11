@@ -5,13 +5,13 @@ import './style.css'
 
 
 
-function HeaderIconPart() {
+function HeaderIconPart({count}) {
 
     return (
         <div className='IconPart'>
             <div>
                 <img className='ItemIcon' src={Shop} alt="" />
-                <div className='ItemNumber'></div>
+                <div className='ItemNumber'>{count}</div>
             </div>
             <img src={Icon} alt="" />
         </div>
